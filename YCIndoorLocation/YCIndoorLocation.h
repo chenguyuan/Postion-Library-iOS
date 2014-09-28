@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 //! Project version number for YCIndoorLocation.
 FOUNDATION_EXPORT double YCIndoorLocationVersionNumber;
 
@@ -15,5 +16,7 @@ FOUNDATION_EXPORT double YCIndoorLocationVersionNumber;
 FOUNDATION_EXPORT const unsigned char YCIndoorLocationVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <YCIndoorLocation/PublicHeader.h>
+
+#import "YCLocationManager.h"
 
 

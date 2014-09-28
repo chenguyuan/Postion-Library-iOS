@@ -10,13 +10,16 @@
 		0E17586D5B3940C4B60CF561 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFF657E369C403899E7AD5A /* libPods.a */; };
 		C829027519CAA966005FF6F2 /* YCIndoorLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = C829027419CAA966005FF6F2 /* YCIndoorLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C829027F19CAA966005FF6F2 /* YCIndoorLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C829027E19CAA966005FF6F2 /* YCIndoorLocationTests.m */; };
-		C829029019CAAC6E005FF6F2 /* YCLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = C829028E19CAAC6E005FF6F2 /* YCLocation.h */; };
+		C829029019CAAC6E005FF6F2 /* YCLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = C829028E19CAAC6E005FF6F2 /* YCLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C829029119CAAC6E005FF6F2 /* YCLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = C829028F19CAAC6E005FF6F2 /* YCLocation.m */; };
-		C829029419CAAC83005FF6F2 /* YCLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C829029219CAAC83005FF6F2 /* YCLocationManager.h */; };
+		C829029419CAAC83005FF6F2 /* YCLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C829029219CAAC83005FF6F2 /* YCLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C829029519CAAC83005FF6F2 /* YCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C829029319CAAC83005FF6F2 /* YCLocationManager.m */; };
-		C829029719CAACA7005FF6F2 /* YCLocationManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C829029619CAACA7005FF6F2 /* YCLocationManagerDelegate.h */; };
-		C829029A19CAACC6005FF6F2 /* YCMapData.h in Headers */ = {isa = PBXBuildFile; fileRef = C829029819CAACC6005FF6F2 /* YCMapData.h */; };
+		C829029719CAACA7005FF6F2 /* YCLocationManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C829029619CAACA7005FF6F2 /* YCLocationManagerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C829029B19CAACC6005FF6F2 /* YCMapData.m in Sources */ = {isa = PBXBuildFile; fileRef = C829029919CAACC6005FF6F2 /* YCMapData.m */; };
+		C82902AA19CAB4E6005FF6F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82902A919CAB4E6005FF6F2 /* CoreGraphics.framework */; };
+		C82902AC19CAB61F005FF6F2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82902AB19CAB61F005FF6F2 /* CoreLocation.framework */; };
+		C82902AE19CAB625005FF6F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82902AD19CAB625005FF6F2 /* UIKit.framework */; };
+		C8F67ACC19D4408200D66479 /* IndoorPosition.db in Resources */ = {isa = PBXBuildFile; fileRef = C8F67A6119D3EFE800D66479 /* IndoorPosition.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,10 @@
 		C829029619CAACA7005FF6F2 /* YCLocationManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCLocationManagerDelegate.h; sourceTree = "<group>"; };
 		C829029819CAACC6005FF6F2 /* YCMapData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCMapData.h; sourceTree = "<group>"; };
 		C829029919CAACC6005FF6F2 /* YCMapData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMapData.m; sourceTree = "<group>"; };
+		C82902A919CAB4E6005FF6F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C82902AB19CAB61F005FF6F2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C82902AD19CAB625005FF6F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8F67A6119D3EFE800D66479 /* IndoorPosition.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = IndoorPosition.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82902AE19CAB625005FF6F2 /* UIKit.framework in Frameworks */,
+				C82902AC19CAB61F005FF6F2 /* CoreLocation.framework in Frameworks */,
+				C82902AA19CAB4E6005FF6F2 /* CoreGraphics.framework in Frameworks */,
 				0E17586D5B3940C4B60CF561 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,6 +69,9 @@
 		8F370383342A4179AA9A4A79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C82902AD19CAB625005FF6F2 /* UIKit.framework */,
+				C82902AB19CAB61F005FF6F2 /* CoreLocation.framework */,
+				C82902A919CAB4E6005FF6F2 /* CoreGraphics.framework */,
 				6BFF657E369C403899E7AD5A /* libPods.a */,
 			);
 			name = Frameworks;
@@ -67,6 +80,7 @@
 		C829026519CAA966005FF6F2 = {
 			isa = PBXGroup;
 			children = (
+				C8F67A6119D3EFE800D66479 /* IndoorPosition.db */,
 				C829027119CAA966005FF6F2 /* YCIndoorLocation */,
 				C829027B19CAA966005FF6F2 /* YCIndoorLocationTests */,
 				C829027019CAA966005FF6F2 /* Products */,
@@ -136,7 +150,6 @@
 				C829029419CAAC83005FF6F2 /* YCLocationManager.h in Headers */,
 				C829027519CAA966005FF6F2 /* YCIndoorLocation.h in Headers */,
 				C829029019CAAC6E005FF6F2 /* YCLocation.h in Headers */,
-				C829029A19CAACC6005FF6F2 /* YCMapData.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F67ACC19D4408200D66479 /* IndoorPosition.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
